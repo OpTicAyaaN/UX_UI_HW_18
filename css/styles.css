@@ -88,3 +88,10 @@ button a {
   font-weight: 800;
   color: black;
 }
+
+/**This media query will make recipes stack vertically on smaller screens**/
+@media only screen and (max-width: 1000px) {
+  .recipeBox {
+    flex-direction: column;
+  }
+}
